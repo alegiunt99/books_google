@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css" integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Books</title>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Cerca i libri</h1>
+
+        <div>
+            <label for="ricerca"></label>
+            <input type="text" id="ricerca">
+            <button onclick="cercaLibro()">Cerca</button>
+
+            <table class="table" >
+                <thead>
+                    <th scope="col">Immagine</th>
+                    <th scope="col">Titolo</th>
+                    <th scope="col">Autori</th>
+                </thead>
+                <tbody id="reserchTable">
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    
+</body>
+</html>
